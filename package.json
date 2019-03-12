@@ -1,0 +1,21 @@
+{
+  "name": "node-tdd-mocha-chai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha test/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
+    "sinon": "^7.2.7"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "got": "^9.6.0"
+  }
+}
